@@ -6,11 +6,12 @@
    <UUID>f6bba0f7-dd46-4fdd-bf8a-c966f061591e</UUID>
    <createdEdition>ENTERPRISE</createdEdition>
    <createdVersion>11.1.2</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>ENTERPRISE</modifiedEdition>
    <modifiedVersion>11.1.2</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/home/shikicum/Katalon Studio/Schale-Tracen_website_automation_Katalon_or_Groovy/Schale-Tracen_website_automation_Katalon_or_Groovy.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
