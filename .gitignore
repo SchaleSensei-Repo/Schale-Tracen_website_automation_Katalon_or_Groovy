@@ -1,0 +1,9 @@
+bin/
+Libs/
+.settings/
+.classpath
+.project
+Reports/
+Test Samples/
+.cache/
+build/
