@@ -41,28 +41,41 @@ import io.cucumber.java.en.And
 import io.cucumber.java.en.Given
 import io.cucumber.java.en.Then
 import io.cucumber.java.en.When
-import com.schale.pages.HomePageSearch
+import com.schale.rss.FreshRssPage
 
+class FreshRSSSteps {
+    // Instantiate your Page Object class instead
+    FreshRssPage newsPage = new FreshRssPage()
 
+@When("I click the {string} navigation link")
+def GoNews(String news) {
+	newsPage.GoNews()
+}
 
-class HomeSearchSteps {
- /**
-* The step definitions below match with Katalon sample Gherkin steps
-*/
-	HomePageSearch searchPage = new HomePageSearch()
-	
-	@When("I type {string} into the site search bar")
-	def handleSearchInput(String searchText) {
-		searchPage.handleSearchInput(searchText)
-	}
-	
-	@Then("the {string} category should be visible")
-	def VisibleCategory(String category) {
-		searchPage.VisibleCategory(category)
-	}
-	
-	@And("the {string} category should be hidden")
-	def HiddenCategory(String hiddenCategory) {
-		searchPage.HiddenCategory(hiddenCategory)
-	}
+@Then("I should be redirected to the FreshRSS landing page")
+def RSSLanding() {
+	newsPage.RSSLanding()
+}
+
+@And("I log in with my dummy credentials")
+def Login() {
+	newsPage.Login()
+}
+
+@Then("I should see that I am successfully logged in")
+def RSSMenu() {
+	newsPage.RSSMenu()
+}
+
+@When("I log out of FreshRSS")
+def Logout() {
+	newsPage.Logout()
+}
+
+@Then("I should see the login screen again")
+def LoggedOut() {
+	newsPage.LoggedOut()
+}
+
+ 
 }
