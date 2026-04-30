@@ -8,7 +8,7 @@ import com.kms.katalon.core.model.FailureHandling
 
 public class HomePageSearch {
 
-    String url = GlobalVariable.baseUrl
+    String url = GlobalVariable.baseUrlSauceSauce
 
     def navigateToHome() {
         WebUI.openBrowser('')

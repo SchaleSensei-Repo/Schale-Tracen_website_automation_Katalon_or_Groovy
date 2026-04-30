@@ -22,7 +22,7 @@ import com.kms.katalon.core.util.KeywordUtil
 import internal.GlobalVariable
 
 public class FreshRssPage {
-	String url = GlobalVariable.baseUrl
+	String url = GlobalVariable.baseUrlSauceSauce
 	
 	def GoNews() {
 		WebUI.waitForElementVisible(findTestObject('Object Repository/Home Page/News Link'),

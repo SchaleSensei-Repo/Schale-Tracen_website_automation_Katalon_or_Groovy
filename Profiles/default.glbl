@@ -6,8 +6,8 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://schale-tracen.my.id/'</initValue>
-      <name>baseUrl</name>
+      <initValue>'https://www.saucedemo.com/'</initValue>
+      <name>baseUrlSauce</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
@@ -22,5 +22,12 @@
       <initValue>null</initValue>
       <name>RSS_PASS</name>
       <protected>false</protected>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://schale-tracen.my.id/'</initValue>
+      <name>baseUrl</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
